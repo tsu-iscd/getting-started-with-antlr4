@@ -52,7 +52,7 @@ from tSQLParser import tSQLParser
 from antlr4.tree.Trees import Trees
 
 def main(argv):
-    input = FileStream(argv[1])
+    input = InputStream(argv[1])
     lexer = tSQLLexer(input)
     stream = CommonTokenStream(lexer)
     parser = tSQLParser(stream)
