@@ -1,4 +1,4 @@
-# Getting Started with ANTLR4
+# Getting Started With ANTLR4
 
 ## Installation
 
